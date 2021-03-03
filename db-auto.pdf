@@ -1,0 +1,12 @@
+                        tipo                lunghezza/valore                        attributo
+id                 numero - BIGINT                                primary key (attributi sottointesi: AI, UNIQUE e NOTNULL)
+nome               stringa - VARCHAR              (25)            NOTNULL
+marca              stringa - VARCHAR              (15)            NOTNULL
+anno               date - YEAR                                    NOTNULL
+carburante         stringa - VARCHAR              (10)            NOTNULL
+potenza-motore     numero - SMALLINT                              NULL
+cilindrata         numero - SMALLINT                              NULL
+km-percorsi        numero - MEDIUMINT                             NOTNULL
+colore             stringa - VARCHAR              (15)            NULL
+disponibiltà       numero - TINYINT                               NOTNULL DEFAULT(1)
+prezzo             numero - FLOAT                 (8,2)           NOTNULL
